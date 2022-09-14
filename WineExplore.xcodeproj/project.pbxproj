@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C164686B28D1822D00F8BEAC /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164686A28D1822D00F8BEAC /* TrackableScrollView.swift */; };
+		C164686E28D1D4A100F8BEAC /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164686D28D1D4A100F8BEAC /* UserDefault.swift */; };
+		C164687028D1D51900F8BEAC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164686F28D1D51900F8BEAC /* UserManager.swift */; };
 		C1D470EC28D0630700A9D0A1 /* WineExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D470EB28D0630700A9D0A1 /* WineExploreApp.swift */; };
 		C1D470EE28D0630700A9D0A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D470ED28D0630700A9D0A1 /* ContentView.swift */; };
 		C1D470F028D0630800A9D0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D470EF28D0630800A9D0A1 /* Assets.xcassets */; };
@@ -14,6 +17,24 @@
 		C1D470FD28D0630800A9D0A1 /* WineExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D470FC28D0630800A9D0A1 /* WineExploreTests.swift */; };
 		C1D4710728D0630800A9D0A1 /* WineExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4710628D0630800A9D0A1 /* WineExploreUITests.swift */; };
 		C1D4710928D0630800A9D0A1 /* WineExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4710828D0630800A9D0A1 /* WineExploreUITestsLaunchTests.swift */; };
+		C1D4711628D0632D00A9D0A1 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4711528D0632D00A9D0A1 /* Global.swift */; };
+		C1D4711828D0636200A9D0A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D4711728D0636200A9D0A1 /* GoogleService-Info.plist */; };
+		C1D4711A28D0637C00A9D0A1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4711928D0637C00A9D0A1 /* APIService.swift */; };
+		C1D4711C28D0638600A9D0A1 /* WineDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4711B28D0638600A9D0A1 /* WineDataModel.swift */; };
+		C1D4711E28D063D800A9D0A1 /* SwiftUIPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4711D28D063D800A9D0A1 /* SwiftUIPullToRefresh.swift */; };
+		C1D4712728D066B600A9D0A1 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4712628D066B600A9D0A1 /* FirebaseAppCheck */; };
+		C1D4712928D066B600A9D0A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4712828D066B600A9D0A1 /* FirebaseAuth */; };
+		C1D4712B28D066B600A9D0A1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4712A28D066B600A9D0A1 /* FirebaseAuthCombine-Community */; };
+		C1D4712D28D066B600A9D0A1 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4712C28D066B600A9D0A1 /* FirebaseCrashlytics */; };
+		C1D4712F28D066B600A9D0A1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4712E28D066B600A9D0A1 /* FirebaseFirestore */; };
+		C1D4713128D066B600A9D0A1 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4713028D066B600A9D0A1 /* FirebaseFirestoreCombine-Community */; };
+		C1D4713328D066B600A9D0A1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4713228D066B600A9D0A1 /* FirebaseFirestoreSwift */; };
+		C1D4713528D066B600A9D0A1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4713428D066B600A9D0A1 /* FirebaseMessaging */; };
+		C1D4713728D066B600A9D0A1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4713628D066B600A9D0A1 /* FirebaseStorage */; };
+		C1D4713928D066B600A9D0A1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C1D4713828D066B600A9D0A1 /* FirebaseStorageCombine-Community */; };
+		C1D4713B28D0682D00A9D0A1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4713A28D0682D00A9D0A1 /* ViewModel.swift */; };
+		C1D4713D28D071D200A9D0A1 /* OffsettableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4713C28D071D200A9D0A1 /* OffsettableScrollView.swift */; };
+		C1D4713F28D077E000A9D0A1 /* SwiftUIInfiniteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4713E28D077E000A9D0A1 /* SwiftUIInfiniteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C164686A28D1822D00F8BEAC /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		C164686D28D1D4A100F8BEAC /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		C164686F28D1D51900F8BEAC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		C1D470E828D0630700A9D0A1 /* WineExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D470EB28D0630700A9D0A1 /* WineExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineExploreApp.swift; sourceTree = "<group>"; };
 		C1D470ED28D0630700A9D0A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,14 @@
 		C1D4710228D0630800A9D0A1 /* WineExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineExploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D4710628D0630800A9D0A1 /* WineExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineExploreUITests.swift; sourceTree = "<group>"; };
 		C1D4710828D0630800A9D0A1 /* WineExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1D4711528D0632D00A9D0A1 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C1D4711728D0636200A9D0A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1D4711928D0637C00A9D0A1 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C1D4711B28D0638600A9D0A1 /* WineDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineDataModel.swift; sourceTree = "<group>"; };
+		C1D4711D28D063D800A9D0A1 /* SwiftUIPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIPullToRefresh.swift; sourceTree = "<group>"; };
+		C1D4713A28D0682D00A9D0A1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C1D4713C28D071D200A9D0A1 /* OffsettableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsettableScrollView.swift; sourceTree = "<group>"; };
+		C1D4713E28D077E000A9D0A1 /* SwiftUIInfiniteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIInfiniteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D4713528D066B600A9D0A1 /* FirebaseMessaging in Frameworks */,
+				C1D4712728D066B600A9D0A1 /* FirebaseAppCheck in Frameworks */,
+				C1D4713928D066B600A9D0A1 /* FirebaseStorageCombine-Community in Frameworks */,
+				C1D4713728D066B600A9D0A1 /* FirebaseStorage in Frameworks */,
+				C1D4712D28D066B600A9D0A1 /* FirebaseCrashlytics in Frameworks */,
+				C1D4712B28D066B600A9D0A1 /* FirebaseAuthCombine-Community in Frameworks */,
+				C1D4713328D066B600A9D0A1 /* FirebaseFirestoreSwift in Frameworks */,
+				C1D4713128D066B600A9D0A1 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C1D4712F28D066B600A9D0A1 /* FirebaseFirestore in Frameworks */,
+				C1D4712928D066B600A9D0A1 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C164686C28D1D48500F8BEAC /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				C164686D28D1D4A100F8BEAC /* UserDefault.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		C1D470DF28D0630700A9D0A1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +144,16 @@
 		C1D470EA28D0630700A9D0A1 /* WineExplore */ = {
 			isa = PBXGroup;
 			children = (
+				C164686C28D1D48500F8BEAC /* Property */,
+				C1D4712028D0643700A9D0A1 /* Extension */,
+				C1D4712128D0643700A9D0A1 /* Model */,
+				C1D4712328D0643700A9D0A1 /* View */,
+				C1D4712228D0643700A9D0A1 /* ViewModel */,
+				C1D4711F28D0642A00A9D0A1 /* Service */,
+				C1D4711728D0636200A9D0A1 /* GoogleService-Info.plist */,
 				C1D470EB28D0630700A9D0A1 /* WineExploreApp.swift */,
 				C1D470ED28D0630700A9D0A1 /* ContentView.swift */,
+				C1D4711528D0632D00A9D0A1 /* Global.swift */,
 				C1D470EF28D0630800A9D0A1 /* Assets.xcassets */,
 				C1D470F128D0630800A9D0A1 /* Preview Content */,
 			);
@@ -127,6 +185,49 @@
 			path = WineExploreUITests;
 			sourceTree = "<group>";
 		};
+		C1D4711F28D0642A00A9D0A1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4711928D0637C00A9D0A1 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C1D4712028D0643700A9D0A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C1D4712128D0643700A9D0A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4711B28D0638600A9D0A1 /* WineDataModel.swift */,
+				C164686F28D1D51900F8BEAC /* UserManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1D4712228D0643700A9D0A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4713A28D0682D00A9D0A1 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1D4712328D0643700A9D0A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4711D28D063D800A9D0A1 /* SwiftUIPullToRefresh.swift */,
+				C1D4713C28D071D200A9D0A1 /* OffsettableScrollView.swift */,
+				C1D4713E28D077E000A9D0A1 /* SwiftUIInfiniteList.swift */,
+				C164686A28D1822D00F8BEAC /* TrackableScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +244,18 @@
 			dependencies = (
 			);
 			name = WineExplore;
+			packageProductDependencies = (
+				C1D4712628D066B600A9D0A1 /* FirebaseAppCheck */,
+				C1D4712828D066B600A9D0A1 /* FirebaseAuth */,
+				C1D4712A28D066B600A9D0A1 /* FirebaseAuthCombine-Community */,
+				C1D4712C28D066B600A9D0A1 /* FirebaseCrashlytics */,
+				C1D4712E28D066B600A9D0A1 /* FirebaseFirestore */,
+				C1D4713028D066B600A9D0A1 /* FirebaseFirestoreCombine-Community */,
+				C1D4713228D066B600A9D0A1 /* FirebaseFirestoreSwift */,
+				C1D4713428D066B600A9D0A1 /* FirebaseMessaging */,
+				C1D4713628D066B600A9D0A1 /* FirebaseStorage */,
+				C1D4713828D066B600A9D0A1 /* FirebaseStorageCombine-Community */,
+			);
 			productName = WineExplore;
 			productReference = C1D470E828D0630700A9D0A1 /* WineExplore.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +328,9 @@
 				Base,
 			);
 			mainGroup = C1D470DF28D0630700A9D0A1;
+			packageReferences = (
+				C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C1D470E928D0630700A9D0A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +349,7 @@
 			files = (
 				C1D470F328D0630800A9D0A1 /* Preview Assets.xcassets in Resources */,
 				C1D470F028D0630800A9D0A1 /* Assets.xcassets in Resources */,
+				C1D4711828D0636200A9D0A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +374,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D4711C28D0638600A9D0A1 /* WineDataModel.swift in Sources */,
+				C164686B28D1822D00F8BEAC /* TrackableScrollView.swift in Sources */,
+				C1D4713F28D077E000A9D0A1 /* SwiftUIInfiniteList.swift in Sources */,
+				C164686E28D1D4A100F8BEAC /* UserDefault.swift in Sources */,
+				C1D4711E28D063D800A9D0A1 /* SwiftUIPullToRefresh.swift in Sources */,
 				C1D470EE28D0630700A9D0A1 /* ContentView.swift in Sources */,
+				C164687028D1D51900F8BEAC /* UserManager.swift in Sources */,
 				C1D470EC28D0630700A9D0A1 /* WineExploreApp.swift in Sources */,
+				C1D4711A28D0637C00A9D0A1 /* APIService.swift in Sources */,
+				C1D4711628D0632D00A9D0A1 /* Global.swift in Sources */,
+				C1D4713B28D0682D00A9D0A1 /* ViewModel.swift in Sources */,
+				C1D4713D28D071D200A9D0A1 /* OffsettableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +541,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WineExplore/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +559,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thlee.WineExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,9 +571,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WineExplore/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,6 +589,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thlee.WineExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,6 +708,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1D4712628D066B600A9D0A1 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		C1D4712828D066B600A9D0A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C1D4712A28D066B600A9D0A1 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C1D4712C28D066B600A9D0A1 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C1D4712E28D066B600A9D0A1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C1D4713028D066B600A9D0A1 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C1D4713228D066B600A9D0A1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C1D4713428D066B600A9D0A1 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		C1D4713628D066B600A9D0A1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C1D4713828D066B600A9D0A1 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D4712528D066B600A9D0A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1D470E028D0630700A9D0A1 /* Project object */;
 }
