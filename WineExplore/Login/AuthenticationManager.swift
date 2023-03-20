@@ -20,6 +20,11 @@ struct AuthDataResultModel {
     }
 }
 
+enum AuthProviderOption:String {
+    case email = "password"
+    case google = "google.com"
+}
+
 final class AuthenticationManager {
     static let shared = AuthenticationManager()
     
@@ -34,6 +39,25 @@ final class AuthenticationManager {
         
     }
     
+    // google.com
+    // password
+    func getProviders() throws -> [AuthProviderOption] {
+        guard let providerData = Auth.auth().currentUser?.providerData else {
+            throw URLError(.badServerResponse)
+        }
+        
+        var providers:[AuthProviderOption] = []
+        for providerDatum in providerData {
+            print(providerDatum.providerID)
+            if let option = AuthProviderOption(rawValue: providerDatum.providerID) {
+                providers.append(option)
+            } else {
+                // error
+                assertionFailure("Provider option not found: \(providerDatum.providerID)")
+            }
+        }
+        return providers
+    }
     
     func signOut() throws {
         try Auth.auth().signOut()

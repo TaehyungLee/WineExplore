@@ -8,7 +8,6 @@
 import SwiftUI
 import GoogleSignIn
 import GoogleSignInSwift
-import FirebaseAuth
 
 struct LoginView: View {
     
@@ -49,7 +48,7 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationStack {
+        NavigationView {
             LoginView(showSignInView: .constant(true))
         }
         
