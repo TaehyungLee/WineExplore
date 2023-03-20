@@ -16,7 +16,7 @@ struct WineExploreApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroView()
         }
     }
 }

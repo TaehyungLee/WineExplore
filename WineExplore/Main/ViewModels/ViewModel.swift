@@ -34,7 +34,7 @@ class ViewModel:ObservableObject {
     var storeCancellable = Set<AnyCancellable>()
     
     init() {
-        
+        appendRecentItem()
     }
     
     /// 기존 데이터 초기화하고 최신 리스트 로드
