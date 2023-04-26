@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5655B829F8AFDE003BC6D9 /* CrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5655B729F8AFDE003BC6D9 /* CrashView.swift */; };
 		C164686E28D1D4A100F8BEAC /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164686D28D1D4A100F8BEAC /* UserDefault.swift */; };
 		C164687028D1D51900F8BEAC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164686F28D1D51900F8BEAC /* UserManager.swift */; };
 		C1C2820829C6250D007C54BE /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2820729C6250D007C54BE /* IntroView.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F5655B729F8AFDE003BC6D9 /* CrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashView.swift; sourceTree = "<group>"; };
 		C164686D28D1D4A100F8BEAC /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		C164686F28D1D51900F8BEAC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		C1C2820729C6250D007C54BE /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5655B629F8AF9D003BC6D9 /* Crashytics */ = {
+			isa = PBXGroup;
+			children = (
+				4F5655B729F8AFDE003BC6D9 /* CrashView.swift */,
+			);
+			path = Crashytics;
+			sourceTree = "<group>";
+		};
 		C164686C28D1D48500F8BEAC /* Property */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +240,7 @@
 		C1D470EA28D0630700A9D0A1 /* WineExplore */ = {
 			isa = PBXGroup;
 			children = (
+				4F5655B629F8AF9D003BC6D9 /* Crashytics */,
 				C1C2826129C89C23007C54BE /* Info.plist */,
 				C1C2821229C627C9007C54BE /* Component */,
 				C164686C28D1D48500F8BEAC /* Property */,
@@ -324,6 +335,7 @@
 				C1D470E428D0630700A9D0A1 /* Sources */,
 				C1D470E528D0630700A9D0A1 /* Frameworks */,
 				C1D470E628D0630700A9D0A1 /* Resources */,
+				4F5655B529F8AEF0003BC6D9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -458,6 +470,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F5655B529F8AEF0003BC6D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1D470E428D0630700A9D0A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -471,6 +505,7 @@
 				C1C2821629C627F3007C54BE /* LaunchScreenView.swift in Sources */,
 				C1C2821E29C62BAC007C54BE /* SignInEmailView.swift in Sources */,
 				C1C2826329C89E1C007C54BE /* UIApplicationExt.swift in Sources */,
+				4F5655B829F8AFDE003BC6D9 /* CrashView.swift in Sources */,
 				C1C2821129C62765007C54BE /* IntroViewModel.swift in Sources */,
 				C164687028D1D51900F8BEAC /* UserManager.swift in Sources */,
 				C1C2821C29C62AA1007C54BE /* LoginViewModel.swift in Sources */,
@@ -640,6 +675,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"WineExplore/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;

@@ -17,6 +17,7 @@ struct WineExploreApp: App {
     var body: some Scene {
         WindowGroup {
             IntroView()
+//            CrashView()
         }
     }
 }
